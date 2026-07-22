@@ -24,7 +24,7 @@ socket2 = "0.6"
 
 [dev-dependencies]
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
-tracing-subscriber = { version = "0.3", default-features = false }
+tracing-subscriber = { version = "0.3", default-features = false, features = ["fmt"] }
 
 [lints.clippy]
 all = { level = "warn", priority = -1 }
